@@ -6,49 +6,33 @@
     <link rel="stylesheet" href="bootstrap/css/styles.css">
     <script src="bootstrap/js/jquery-1.12.0.js"></script>
     <script src="bootstrap/js/scripts.js"></script>
-    <title>You Won the Lottery!</title>
+    <title>Tell Me Something!</title>
   </head>
   <body>
     <!-- HEADER -->
     <div class="jumbotron">
-      <h1>Default Lottery Winner Letter</h1>
+      <h1>Text for the Hard of Hearing</h1>
     </div>
     <!-- END HEADER -->
     <!-- FORM -->
     <div id="blanks">
-      <form class="container">
+      <form>
         <div class="form-group">
-          <label for="name">Winner's Name</label>
-          <input id="name" class="form-control" type="text">
-        </div>
-        <div class="form-group">
-          <label for="prize">Winner's Prize</label>
-          <input id="prize" class="form-control" type="text">
-        </div>
-        <div class="form-group">
-          <label for="amount">Payment amount</label>
-          <input id="amount" class="form-control" type="text">
-        </div>
-        <div class="form-group">
-          <label for="location">Location for pickup</label>
-          <input id="location" class="form-control" type="text">
+          <label for="input">What would you like to tell me?</label> <!-- changed to for-->
+          <input id="input" class="form-control" type="text">
         </div>
 
-        <button type="submit" class="btn btn-warning btn-lg">Show me the MONEY!</button>
+        <button type="submit" class="btn btn-warning btn-lg">WHAT DID YOU SAY???</button>
       </form>
     </div>
     <!-- END FORM -->
     <!-- Letter -->
-    <div id="letter" class="container">
-      <p>
-        Dear <span class="name"></span>,
+    <div id="response"  class="container">
+
+      <p class="input">
+        
       </p>
-      <p>
-        Lorem prize winner ipsum dolor sit amet, <span class="prize"></span>consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <span class="amount"></span>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-      <p>
-        Lorem prize winner ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation <span class="location"></span>ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
+
     </div>
     <!-- END Letter -->
   </body>

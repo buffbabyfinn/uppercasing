@@ -2,6 +2,11 @@
   text-align: center;
 }
 
-#letter {
+label {
+  color: #0276FD;
+  font-family: fantasy;
+}
+
+#response {
   display: none;
 }
